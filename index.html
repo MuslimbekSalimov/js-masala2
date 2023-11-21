@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <style>
+        body {
+            background-color: #2193b0;
+        }
+        .header {
+            text-align: center;
+        }
+
+        li,a {
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        .header__info {
+            display: flex;
+            /* flex-direction: column; */
+            gap: 35px;
+            text-align: center;
+            align-items: center;
+            margin-left: 400px;
+        }
+
+        .header__list {
+            display: flex;
+            align-items: center;
+            gap: 33px;
+        }
+
+        .header__item {
+            background-color: #2c3e50;
+        }
+
+        .header__img {
+            border-radius: 12px;
+        }
+    </style>
+    
+
+    <header class="header">
+        <h1 class="heading">Qaysi Yo'ldan foydalangan ma'qul?!?!</h1>
+
+        <form class="form">
+            <div class="header__info">
+            <h2 class="header__heading">Masofani yoz</h2>
+            <input class="input" type="text" placeholder="Masofani kiriting">
+            <button type="submit">Bosaqoling</button>
+            </div>
+            <ul class="header__list">
+                <li class="header__item">
+                    <img class="header__img" src="./img/piyoda.jpg" alt="piyoda">
+                    <h3 class="header__heading1">Piyoda</h3>
+                    <p class="peshkom__text"></p>
+                </li>
+
+                <li class="header__item">
+                    <img class="header__img" src="./img/bike.jpg" alt="bike">
+                    <h3 class="header__heading1">Velosiped</h3>
+                    <p class="gelik__text"></p>
+                </li>
+
+                <li class="header__item">
+                    <img class="header__img" src="./img/car.jpg" alt="car">
+                    <h3 class="header__heading1">Moshina</h3>
+                    <p class="mashina__text"></p>
+                </li>
+
+                <li class="header__item">
+                    <img class="header__img" src="./img/airplane.jpg" alt="airplane">
+                    <h3 class="header__heading1">Samatyotda boramiz</h3>
+                    <p class="samalyot__text"></p>
+                </li>
+            </ul>
+        </form>
+    </header>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
